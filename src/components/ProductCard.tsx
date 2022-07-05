@@ -45,6 +45,7 @@ export const ProductCard = ({
     value,
   });
 
+  // Main Product Card component
   return (
     <Provider value={{ counter, increaseBy, product, maxCount }}>
       <div className={`${styles.productCard} ${className}`} style={style}>
