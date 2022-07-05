@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductButtons debe mostrar el componente correctamente con una clase custom 1`] = `
+<div
+  className="buttonsContainer custom-class"
+>
+  <button
+    className="buttonMinus"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <div
+    className="countLabel"
+  />
+  <button
+    className="buttonAdd false"
+    disabled={false}
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`ProductButtons debe mostrar el componente correctamente con una clase custom y un estilo custom 1`] = `
+<div
+  className="buttonsContainer custom-class"
+  style={
+    Object {
+      "backgroundColor": "black",
+    }
+  }
+>
+  <button
+    className="buttonMinus"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <div
+    className="countLabel"
+  />
+  <button
+    className="buttonAdd false"
+    disabled={false}
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`ProductButtons debe mostrar el componente sin parametros adicionales 1`] = `
+<div
+  className="buttonsContainer undefined"
+>
+  <button
+    className="buttonMinus"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <div
+    className="countLabel"
+  />
+  <button
+    className="buttonAdd false"
+    disabled={false}
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
